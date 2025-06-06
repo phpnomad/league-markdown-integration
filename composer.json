@@ -1,0 +1,22 @@
+{
+    "name": "phpnomad/league-markdown-integration",
+    "description": "Implements PHPNomad Markdown implementations using League libraries",
+    "type": "project",
+    "require": {
+        "league/commonmark": "^2.7",
+        "league/html-to-markdown": "^5.1",
+        "phpnomad/markdown": "^1.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "PHPNomad\\LeagueMarkdownIntegration\\": "lib/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Alex Standiford",
+            "email": "alex@standiford.us"
+        }
+    ]
+}
